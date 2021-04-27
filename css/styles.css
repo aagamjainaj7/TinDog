@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* title section */
+
+#title{
+    background-color: #ff4c68;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.row h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    text-decoration: none;
+    font-weight:600;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.nav-item{
+    padding-right: 18px;
+}
+.dog-image{
+    width: 18%;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.container-fluid{
+    padding: 3% 15%;;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+/* features section*/
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#features h3{
+    font-weight: bold;
+    text-align:center;
+}
+#features p{
+    text-align: center;
+    color: grey;
+}
+.feature-box{
+    padding:5%;
+    text-align: center;
+}
+.icon{
+    color: #ef8172;
+    padding-bottom: 8%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#testimonials h2{
+    font-family: "Montserrat-Bold";
+    line-height:1.5;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.test-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 0 20px;
+}
+#pricing{
+    text-align: center;
+    margin-top: 10%;
+}
+#pricing h2{
+    font-family: "Montserrat";
+    font-weight:bold;
+}
+#pricing h3{
+    font-family: "Montserrat";
+    font-weight:bold;
+}
+#pricing p{
+    color: grey;
+}
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .dog-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 0 0;
+}
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    text-decoration: none;
+    margin: 0 15% 0;
+    font-weight:600;
+}
+#footer{
+    margin-top: 3%;
+    text-align: center;
+}
+.social-links{
+    padding: 0 2% 1%;
+    color: grey;
+}
+#footer p{
+    color: grey;
+}
